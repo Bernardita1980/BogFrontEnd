@@ -1,0 +1,215 @@
+
+.header{
+    height: 20.1vh;
+}
+.header__container__img--enfasis {
+    display: inline;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+
+
+
+/*______________BLOQUE1!_________________________*/
+
+
+
+.Bloque1{
+    
+    margin-left: 4rem;
+    
+}
+
+.ContMain__CajaBoost__titulo{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.7rem;
+}
+
+.ContMain__CajaBoost__img--central{
+    width: 44.1vw;
+    border-radius: 20px;
+    height: 314px;
+}
+
+
+
+
+.ContMain__CajaBoost__subti{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1,5rem;
+}
+
+
+
+/*______________BLOQUE2!_________________________*/
+
+.ContImg{
+    align-items: center;
+    padding-bottom: 20px;
+    height: 500px;
+    
+}
+/*Clases En Comun_______________________________*/
+.ContImg__img{
+    width: 13.8vw;
+    border-radius: 25px;
+    padding: 15px 5px;
+    height: 22.6vh;
+}
+
+.Fechas{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}
+.Populares__imagen{
+    width: 21.8vw;
+    height: 31,2vh;
+    border-radius: 10px;
+}
+
+.Subtitulos{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.2rem;
+    
+}
+
+.ContTres__Caja{
+
+    padding: 15px 5px;
+
+}
+
+.MedLogos{
+    width: 21.8vw;
+    height: 89px;
+    border-radius: 10px;
+    display: inline-block;
+    
+}
+
+.LogosVarios__Medidas{
+    width: 6.2vw;
+    height: 89px;
+    border-radius: 10px;
+}
+
+.LogosVarios__Texto{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.8rem;
+    margin-left: 40px;
+}
+/*______________BLOQUE3!_________________________*/
+
+.ContTres{
+    align-items: center;
+    padding-bottom: 20px;
+    height: 500px;
+}
+
+.container-fluid{
+align-items: center;
+}
+
+
+.Populares1__titulo{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.7rem;
+}
+
+
+.LogosVarios__Titulo{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.7rem;
+}
+
+
+.LogosVarios__Caja--red{
+    background-color: #E93E30;
+    display:inline-block;
+    
+}
+
+
+.LogosVarios__Caja--yellow{
+    background-color: #F7E018;
+}   
+
+
+.LogosVarios__Caja--skyBlue{
+    background-color: #299ED5;
+}
+
+.LogosVarios__Caja--black{
+    background-color: #292C33;
+}
+
+
+.LogosVarios__Caja--green{
+    background-color: #67C770;
+}
+
+.LogosVarios__Caja--purple{
+    background-color: #563D7C;
+}
+
+
+
+.VariosTitulo{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.7rem;
+}
+
+.logo_ParrafoFinal{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+.Footer{
+    height: 20.1vh;
+}
+.Footer__CajaFooter__img--title {
+    display: inline;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+
+@media (min-width: 300px) and (max-width: 990px){
+    .ContenedorImagenes_imagen {
+        border-radius: 25px;
+        padding: 15px 5px;
+        height: 22.6vh;
+        width: 80%;
+    }
+    .contenedor3 {
+        display: none;
+       
+    }
+   
+    .LogosVarios{
+        width: 80%;
+        text-align: center;
+    }
+    }
